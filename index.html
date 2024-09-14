@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новый Лесснер</title>
+    <meta name="description" content="Продажа квартир в&nbsp;Санкт-Петербурге от&nbsp;&laquo;Отделстрой&raquo;. Самые качественные квартиры.">
+    <meta property="og:site_name" content="Новый Лесснер">
+    <meta property="og:url" content="https://nice-skills.ru/TaskForWork">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Новый Лесснер">
+    <meta property="og:description" content="Продажа квартир в&nbsp;Санкт-Петербурге от&nbsp;&laquo;Отделстрой&raquo;. Самые качественные квартиры.">
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Отделстрой",
+          "url": "https://nice-skills.ru/TaskForWork",
+          "description": "Компания «Отделстрой» работает в сфере строительства в Санкт-Петербурге и области с 1994 года. Более миллиона квадратных метров жилья и объектов социальной инфраструктуры, 15 тысяч семей, получивших квартиры в срок.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Санкт-Петербург",
+            "addressRegion": "Санкт-Петербург",
+            "addressCountry": "Россия"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+7-812 561-0375",
+            "contactType": "Customer Support",
+            "areaServed": "RU",
+            "availableLanguage": "Russian"
+          }
+        }
+    </script>
+        
+    <link href="style.css" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <div>
+            <a href="#"><img src="img/header-logo.svg" alt="Новый Лесснер"></a>
+            <button id="hamburger-button" aria-label="Меню">
+                <svg width="100%" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="12" y="16" width="24" height="2" rx="1" />
+                    <rect x="12" y="23" width="24" height="2" rx="1" />
+                    <rect x="12" y="30" width="24" height="2" rx="1" />
+                </svg>
+            </button>
+            <nav>
+                <ul>
+                    <li>о проекте</li>
+                    <li><a href="#">расположение</a></li>
+                    <li><a href="#">как купить</a></li>
+                    <li><a href="#">о застройщике</a></li>
+                    <li><a href="#" class="gray-button button-with-arrow">ВЫБРАТЬ КВАРТИРУ</a></li>
+                    <li><button class="order-call-button">заказать звонок</button></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <div class="contacts">
+                <a href="tel:+78125610375">812 561-03-75</a>
+                <button class="order-call-button">заказать звонок</button>
+            </div>
+            <a href="#" class="gray-button button-with-arrow">ВЫБРАТЬ КВАРТИРУ</a>
+        </div>
+    </header>
+    <div class="order-call">
+        <button id="form-cross" aria-label="Закрыть">
+            <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x=".81" y="17.78" width="24" height="2" rx="1" transform="rotate(-45 .8 17.78)" fill="#fff"/><rect x="2.22" y=".81" width="24" height="2" rx="1" transform="rotate(45 2.22 .81)"/></svg>
+        </button>
+        <form>
+            <h2>заказать <span>звонок</span></h2>
+            <p class="lead">Персональный менеджер ответит на&nbsp;все вопросы и&nbsp;подготовит для вас индивидуальное предложение.</p>
+            <label for="name">Имя:</label>
+            <input type="text" name="name" id="name" placeholder="Введите ваше имя" autocomplete="name" required>
+            
+            <label for="phone">Телефон:</label>
+            <input type="tel" name="phone" id="phone" placeholder="Телефон" autocomplete="tel" required>
+            
+            <label class="custom-checkbox">
+                <input type="checkbox" id="agree" name="agree" required>
+                <span></span>
+                Согласие на&nbsp;обработку персональных данных
+            </label>
+
+            <button type="submit" class="orange-button button-with-arrow">ОТПРАВИТЬ</button>
+              
+        </form>
+    </div>
+    <section class="main-section">
+        <nav aria-label="breadcrumb">
+            <ul>
+                <li><a href="#">главная&nbsp;/</a></li>
+                <li> о проекте</li>
+            </ul>
+        </nav>
+        <h1>о проекте</h1>
+    </section>
+    <section class="description-section">
+        <h2>строим проекты, которым <span>нет равных</span></h2>
+        <div>
+            <p class="lead">Компания &laquo;Отделстрой&raquo; работает в&nbsp;сфере строительства в&nbsp;Санкт-Петербурге и&nbsp;области с&nbsp;1994&nbsp;года.</p>
+            <p>Мы&nbsp;счастливы предлагать людям и&nbsp;обществу комфортные условия для жизни. В&nbsp;нашем портфеле&nbsp;&mdash; более миллиона квадратных метров жилья и&nbsp;объектов социальной инфраструктуры. Нашими клиентам стали более 15&nbsp;тысяч семей, которые получили квартиры в&nbsp;срок, либо досрочно.</p>
+            <a class="orange-button" href="#">ВЫБРАТЬ КВАРТИРУ</a>
+            <a class="white-button button-with-arrow" href="#">НАЙТИ БЛИЖАЙШИЙ ОФИС</a>
+        </div>
+        <picture>
+            <source type="image/webp" media="(max-width: 360px)" srcset="img/main-img-small@1x.webp 1x, img/main-img-small@2x.webp 2x">
+            <source type="image/jpg" media="(max-width: 360px)" srcset="img/main-img-small@1x.jpg 1x, img/main-img-small@2x.jpg 2x">
+
+            <source type="image/webp" media="(max-width: 480px)" srcset="img/main-img-small@2x.webp 1x, img/main-img-small@3x.webp 2x">
+            <source type="image/jpg" media="(max-width: 480px)" srcset="img/main-img-small@2x.jpg 1x, img/main-img-small@3x.jpg 2x">
+
+            <source type="image/webp" media="(max-width: 715px) or (min-width: 963px)" srcset="img/main-img.webp 1x, img/main-img@2x.webp 2x, img/main-img@3x.webp 3x">
+            <source type="image/jpg" media="(max-width: 715px) or (min-width: 963px)" srcset="img/main-img.jpg 1x, img/main-img@2x.jpg 2x, img/main-img@3x.jpg 3x">
+
+            <source type="image/webp" media="(max-width: 880px)" srcset="img/main-img@2x.webp 1x, img/main-img@3x.webp 2x">
+            <source type="image/jpg" media="(max-width: 880px)" srcset="img/main-img@2x.jpg 1x, img/main-img@3x.jpg 2x">
+
+            <source type="image/webp" media="(max-width: 962px)" srcset="img/main-img.webp 1x, img/main-img@2x.webp 2x">
+            <source type="image/jpg" media="(max-width: 962px)" srcset="img/main-img.jpg 1x, img/main-img@2x.jpg 2x">
+
+            <img alt="Главное фото" src="img/main-img@3x.jpg">
+        </picture>
+    </section>
+    <section class="story-in-numbers">
+        <h2>история в&nbsp;цифрах</h2>
+        <div>
+            <div>
+                <p class="factoid">150</p>
+                <h4>квартир<br>на этаже</h4>
+            </div>
+            <div>
+                <p class="factoid">300+</p>
+                <h4>реализованных<br>проектов</h4>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="info-site">
+            <p>
+                Вся информация на&nbsp;сайте носит справочный характер и&nbsp;не&nbsp;является публичной офертой,<br>
+                согласно статье 437&nbsp;ГК РФ. Использование материалов с&nbsp;сайта newlessner.&nbsp;ru&nbsp;не&nbsp;допускается<br>
+                без письменного разрешения ООО &laquo;Специализированный застройщик &laquo;Отделстрой&raquo;
+            </p>
+            <p>
+                &copy;&nbsp;ООО &laquo;Специализированный застройщик &laquo;Отделстрой&raquo; 2023
+            </p>
+            <a href="https://m18.ru/">Создание сайта — М18</a>
+        </div>
+        <div class="adress">
+            <a href="https://yandex.ru/maps/-/CDDeVDLK">Санкт-Петербург,<br>Светлановский&nbsp;пр., д.&nbsp;115, корп.&nbsp;1</a>
+            <a href="tel:+78125610375">812 561-03-75</a>
+            <div>
+                <a href="" class="social-network">
+                    <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M31 16.17v-.34c-6.64-.2-9.68-.36-12.1-2.73-2.37-2.42-2.53-5.46-2.73-12.1h-.34c-.2 6.64-.36 9.68-2.73 12.1-2.42 2.37-5.46 2.53-12.1 2.73v.34c6.64.2 9.68.36 12.1 2.73 2.37 2.42 2.53 5.46 2.73 12.1h.34c.2-6.64.36-9.68 2.73-12.1 2.42-2.37 5.46-2.53 12.1-2.73Z"/></svg>
+                </a>
+                <a href="" class="social-network">
+                    <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.49 16.34a5.08 5.08 0 0 1-4.93-5.12C11.56 8.35 13.8 6 16.5 6c2.78 0 4.92 2.35 4.92 5.22a5.36 5.36 0 0 1-1.45 3.63 4.88 4.88 0 0 1-3.47 1.5Zm0-7.32c-1.14 0-2 1-2 2.2 0 1.2.86 2.1 2 2.1 1.18 0 2-.9 2-2.1 0-1.2-.82-2.2-2-2.2Zm1.96 11.58 2.78 2.83c.55.62.55 1.53 0 2.1-.6.63-1.5.63-1.96 0l-2.78-2.87-2.7 2.87a1.4 1.4 0 0 1-1.04.43c-.32 0-.69-.14-1-.43a1.56 1.56 0 0 1 0-2.1l2.82-2.83c-1.02-.32-2-.77-2.92-1.34-.68-.38-.82-1.34-.45-2.06.45-.71 1.27-.9 2-.43a6.08 6.08 0 0 0 6.57 0c.73-.48 1.6-.28 2.01.43.41.72.23 1.68-.41 2.06-.87.58-1.87 1-2.92 1.34Z"/></svg>
+                </a>
+                <a href="" class="social-network">
+                    <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.43 22.85a.02.02 0 0 0-.02-.02c-6.23 0-10.1-4.25-10.4-11.32a.5.5 0 0 1 .5-.51h2.24c.27 0 .5.22.5.5.2 4.53 2.14 6.75 3.87 7.52.3.13.6-.11.6-.44V11.5c0-.28.23-.5.5-.5h2.11c.28 0 .5.22.5.5v3.6c0 .3.27.54.55.45 1.55-.5 3.06-2.25 3.73-4.2a.52.52 0 0 1 .5-.35h2.09c.3 0 .54.28.47.58a9.2 9.2 0 0 1-3.17 4.8.62.62 0 0 0 .05.99 9.56 9.56 0 0 1 3.76 4.88c.1.31-.14.63-.47.63H22a.52.52 0 0 1-.48-.35 5.7 5.7 0 0 0-4.13-3.8c-.3-.06-.55.17-.55.47v3.48a.2.2 0 0 1-.2.2h-.18a.02.02 0 0 1-.02-.03Z"/></svg>
+                </a>
+                <a href="" class="social-network">
+                    <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m12.06 17.97-.3 4.22c.43 0 .62-.19.84-.4l2-1.93 4.13 3.05c.76.43 1.3.2 1.5-.7l2.72-12.83c.24-1.13-.4-1.58-1.15-1.3L5.84 14.24c-1.1.43-1.08 1.04-.19 1.32l4.08 1.28 9.49-5.98c.44-.3.85-.14.51.16l-7.67 6.95Z"/></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        
+        const button = document.getElementById('hamburger-button');
+        const orderCallButtons = document.getElementsByClassName("order-call-button");
+
+        button.addEventListener("click", function() {
+            button.classList.toggle('active');
+            if (window.innerWidth <= 1256) {
+                document.body.style.overflow =  document.getElementById("hamburger-button").classList.contains("active")?"hidden":"";
+            }
+        });
+
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey && event.key === 'q') {
+                const existingContainer = document.querySelector('.grid-container');
+                if (existingContainer) {
+                    existingContainer.remove();
+                } else {
+                    const container = document.createElement('div');
+                    container.className = 'grid-container';
+                    const viewportWidth = window.innerWidth;
+                    var numberOfItems = viewportWidth>=1024?12:(viewportWidth>=640?6:4);
+
+                    for (let i = 0; i < numberOfItems; i++) {
+                        const item = document.createElement('div');
+                        item.className = 'grid-item';
+                        container.appendChild(item);
+                    }
+                    document.body.appendChild(container);
+                }
+            }
+        });
+        
+
+        Array.from(orderCallButtons).forEach(button => {
+            button.addEventListener("click", function() {
+                document.getElementsByClassName("order-call")[0].classList.add("active");
+                document.body.style.overflow =  "hidden";
+            });
+        });
+
+        document.getElementById("form-cross").addEventListener("click", function(){
+            document.getElementsByClassName("order-call")[0].classList.remove("active");
+            if (!button.classList.contains("active")) {
+                document.body.style.overflow =  "scroll";
+            }
+        });
+
+        const nameInput = document.querySelector("input#name");
+        const nameLabel = document.querySelector("label[for='name']");
+        const phoneInput = document.querySelector("input#phone");
+        const phoneLabel = document.querySelector("label[for='phone']");
+        
+        function toggleLabelNameVisibility() {
+            if (nameInput.value.trim() !== '') {
+                nameLabel.classList.add('no-hidden');
+            } else {
+                nameLabel.classList.remove('no-hidden');
+            }
+        }
+
+        function toggleLabelPhoneVisibility() {
+            if (phoneInput.value.trim() !== '') {
+                phoneLabel.classList.add('no-hidden');
+            } else {
+                phoneLabel.classList.remove('no-hidden');
+            }
+        }
+    
+        nameInput.addEventListener('input', toggleLabelNameVisibility);
+        phoneInput.addEventListener('input', toggleLabelPhoneVisibility);
+
+        toggleLabelNameVisibility();
+        toggleLabelPhoneVisibility();
+
+        document.querySelector('form').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+
+            const agreeCheckbox = document.getElementById('agree');            
+            const isNameValid = nameInput.value.trim() !== '';
+            const isPhoneValid = phoneInput.value.trim() !== '';
+            
+            const isAgreeChecked = agreeCheckbox.checked;
+
+            if (isNameValid && isPhoneValid && isAgreeChecked) {
+                const elements = document.querySelectorAll(".order-call form input, .order-call form label, .order-call form button");
+                elements.forEach(element => {
+                    element.style.display = 'none';
+                });
+                const lead = document.querySelector(".order-call .lead");
+                lead.innerHTML = "Спасибо! Наш менеджер свяжется с&nbsp;вами в&nbsp;ближайшее время и&nbsp;ответит на&nbsp;все интересующие вопросы.";
+                lead.style.margin = "0";
+            }
+        });
+    </script>   
+</body>
+</html>
